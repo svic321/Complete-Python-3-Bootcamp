@@ -1,0 +1,49 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test, coverage, and profiling output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+*.prof
+
+# Packaging and build output
+.build/
+build/
+dist/
+*.egg-info/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local tooling and cache directories
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# custom
+src/complete_python_3_bootcamp/explore.py
+

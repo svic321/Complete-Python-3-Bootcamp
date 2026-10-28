@@ -1,0 +1,24 @@
+[project]
+name = "complete-python-3-bootcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "XPS15-ubuntu", email = "pedrolp321@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+complete-python-3-bootcamp = "complete_python_3_bootcamp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]
